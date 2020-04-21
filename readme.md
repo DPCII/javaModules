@@ -40,11 +40,14 @@ or a comma separated list of modules.
 
 6. ```uses <module>``` -> and <-```provides <module> with <service>```: 
 When we create dependencies in our project, the interfaces and abstractions we
-are relying on in the dependency are loaded into our project at Runtime using
-a ServiceLoader. In a module system, the module-info file in an service-using
-module explicitly names the service-providing module, and the service-providing
-module names the requiring module and the service it provides.
-[Reference](http://openjdk.java.net/projects/jigsaw/spec/sotms/#services)
+are relying on are loaded into our project at Runtime. This is called dependency injection. 
+Java has the ability to manage this, but most people use a framework like Spring.
+When using only Java for dependency injection, it utilizes the ServiceLoader class.
+In a module system, the module-info file in the service-using module explicitly
+names the service-providing module, and the service-providing module names the
+requiring module followed by the service.
+[Reference](http://openjdk.java.net/projects/jigsaw/spec/sotms/#services) \
+[Java's Dependency Injection](https://itnext.io/serviceloader-the-built-in-di-framework-youve-probably-never-heard-of-1fa68a911f9b)
 
 #### Cheatsheet
 [Link to PDF](https://www.jrebel.com/system/files/java-9-modules-cheat-sheet.pdf)

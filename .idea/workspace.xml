@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2450205f-8b03-41d0-b41a-ada08cc5bb74" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/waveModule/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/waveModule/wavePackage/HelloWave.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +101,7 @@
       <workItem from="1587433676685" duration="363000" />
       <workItem from="1587435087587" duration="298000" />
       <workItem from="1587435496018" duration="129000" />
-      <workItem from="1587472176492" duration="6958000" />
+      <workItem from="1587472176492" duration="7559000" />
     </task>
     <servers />
   </component>
