@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2450205f-8b03-41d0-b41a-ada08cc5bb74" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/waveModule/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/waveModule/wavePackage/HelloWave.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,14 +40,15 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="company.core.Application" />
       <module name="javaModules" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.*" />
+          <option name="PATTERN" value="company.core.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -53,9 +56,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HelloApplication.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/HelloApplication.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="HelloWorld.jar (1)" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/HelloWorld.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="HelloWorld.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/src/HelloWorld.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test1.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/test1.jar" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Application" />
+      <item itemvalue="JAR Application.HelloApplication.jar" />
+      <item itemvalue="JAR Application.HelloWorld.jar" />
+      <item itemvalue="JAR Application.HelloWorld.jar (1)" />
+      <item itemvalue="JAR Application.test1.jar" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Application" />
+        <item itemvalue="JAR Application.HelloWorld.jar (1)" />
+        <item itemvalue="JAR Application.HelloWorld.jar" />
+        <item itemvalue="JAR Application.HelloApplication.jar" />
+        <item itemvalue="JAR Application.test1.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -71,7 +101,9 @@
       <updated>1587430331573</updated>
       <workItem from="1587430332819" duration="2566000" />
       <workItem from="1587433676685" duration="363000" />
-      <workItem from="1587435087587" duration="276000" />
+      <workItem from="1587435087587" duration="298000" />
+      <workItem from="1587435496018" duration="129000" />
+      <workItem from="1587472176492" duration="6958000" />
     </task>
     <servers />
   </component>
@@ -79,13 +111,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="404" y="106" key="#Application_(1)" timestamp="1587479328578">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state x="404" y="106" key="#Application_(1)/0.23.1440.837/1440.23.1920.1057@0.23.1440.837" timestamp="1587479328578" />
     <state x="320" y="107" key="#Project_Structure" timestamp="1587433485869">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="320" y="107" key="#Project_Structure/0.23.1440.837@0.23.1440.837" timestamp="1587433485869" />
-    <state x="184" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587433836558">
+    <state x="184" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587479357641">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
+    <state x="184" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.837/1440.23.1920.1057@0.23.1440.837" timestamp="1587479357641" />
     <state x="184" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.837@0.23.1440.837" timestamp="1587433836558" />
     <state x="323" y="364" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1587433402738">
       <screen x="0" y="23" width="1440" height="837" />
@@ -95,25 +132,38 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="395" y="122" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.837@0.23.1440.837" timestamp="1587433565378" />
-    <state width="1396" height="217" key="GridCell.Tab.0.bottom" timestamp="1587434041068">
+    <state x="429" y="97" key="#test1.jar" timestamp="1587473360413">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
+    <state x="429" y="97" key="#test1.jar/0.23.1440.837/1440.23.1920.1057@0.23.1440.837" timestamp="1587473360413" />
+    <state x="468" y="304" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587473330964">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state x="468" y="304" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.837/1440.23.1920.1057@0.23.1440.837" timestamp="1587473330964" />
+    <state width="1396" height="217" key="GridCell.Tab.0.bottom" timestamp="1587479362492">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="1396" height="217" key="GridCell.Tab.0.bottom/0.23.1440.837/1440.23.1920.1057@0.23.1440.837" timestamp="1587479362492" />
     <state width="1396" height="217" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1587434041068" />
-    <state width="1396" height="217" key="GridCell.Tab.0.center" timestamp="1587434041067">
+    <state width="1396" height="217" key="GridCell.Tab.0.center" timestamp="1587479362490">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
+    <state width="1396" height="217" key="GridCell.Tab.0.center/0.23.1440.837/1440.23.1920.1057@0.23.1440.837" timestamp="1587479362490" />
     <state width="1396" height="217" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1587434041067" />
-    <state width="1396" height="217" key="GridCell.Tab.0.left" timestamp="1587434041066">
+    <state width="1396" height="217" key="GridCell.Tab.0.left" timestamp="1587479362490">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
+    <state width="1396" height="217" key="GridCell.Tab.0.left/0.23.1440.837/1440.23.1920.1057@0.23.1440.837" timestamp="1587479362490" />
     <state width="1396" height="217" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1587434041066" />
-    <state width="1396" height="217" key="GridCell.Tab.0.right" timestamp="1587434041067">
+    <state width="1396" height="217" key="GridCell.Tab.0.right" timestamp="1587479362491">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
+    <state width="1396" height="217" key="GridCell.Tab.0.right/0.23.1440.837/1440.23.1920.1057@0.23.1440.837" timestamp="1587479362491" />
     <state width="1396" height="217" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1587434041067" />
-    <state x="208" y="23" key="SettingsEditor" timestamp="1587433053682">
+    <state x="208" y="23" key="SettingsEditor" timestamp="1587472633277">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.837/1440.23.1920.1057@0.23.1440.837" timestamp="1587472633277" />
     <state x="208" y="23" key="SettingsEditor/0.23.1440.837@0.23.1440.837" timestamp="1587433053682" />
     <state x="515" y="226" key="chooseDestDirectoryDialog" timestamp="1587431734948">
       <screen x="0" y="23" width="1440" height="837" />
