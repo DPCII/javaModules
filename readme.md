@@ -8,10 +8,9 @@ smaller systems. The compiler also had no way to tell whether the necessary depe
 were present until it tried to use a missing class. 
 
 #### The Solution
-After a long time in development, Java 9 introduced the Java Platform Module System (JPMS).
-This systems allows you to write a program and package a Jar which only includes the
-necessary modules rather than an entire JRE. It also added a compile-time check to ensure
-all necessary modules are present.
+Java 9 introduced the Java Platform Module System (JPMS). This systems allows you to write
+and build a Jar which only includes the necessary modules rather than an entire
+JRE. It also added a compile-time check to ensure all necessary modules are present.
 
 #### Note
 Avoid this confusion: Maven, Intellij, and Java all have a "module" concept.
@@ -49,5 +48,13 @@ requiring module followed by the service.
 [Reference](http://openjdk.java.net/projects/jigsaw/spec/sotms/#services) \
 [Java's Dependency Injection](https://itnext.io/serviceloader-the-built-in-di-framework-youve-probably-never-heard-of-1fa68a911f9b)
 
+7. ```opens <module> to <module>```: Allows Reflection access. To allow Reflection
+access to anywhere in the program, add the 'open' keyword to the module name in
+module-info.java. Additionally, ```opens <package>``` declared in a module allows
+for runtime Reflection only.
+ 
 #### Cheatsheet
 [Link to PDF](https://www.jrebel.com/system/files/java-9-modules-cheat-sheet.pdf)
+
+#### Further Reading
+[Spring DM](https://livebook.manning.com/book/spring-dynamic-modules-in-action/chapter-1/)
