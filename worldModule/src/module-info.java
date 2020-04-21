@@ -1,0 +1,3 @@
+module worldModule {
+    exports worldPackage;
+}

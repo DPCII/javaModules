@@ -1,0 +1,3 @@
+module waveModule {
+    exports wavePackage;
+}
