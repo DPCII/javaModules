@@ -18,4 +18,12 @@ Avoid this confusion: Maven, Intellij, and Java all have a "module" concept.
 They are different things. This document is referring to Java modules from the JPMS. 
 
 #### Architecture
-Modules are defined by a module-info.java file at the module root. 
+1. Modules are defined by a module-info.java file at each module source root. (ie
+exampleModule/src/module-info.java)
+
+2. Packages that will be needed by other modules should be exported by the module that
+possesses it.
+
+3. Modules that need a package from another module will always require in the entire
+module, not just the package.
+
