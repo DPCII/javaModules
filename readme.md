@@ -44,7 +44,7 @@ Java has the ability to manage this, but most people use a framework like Spring
 When using only Java for dependency injection, it utilizes the ServiceLoader class.
 In a module system, the module-info file in the service-using module explicitly
 names the service-providing module, and the service-providing module names the
-requiring module followed by the service.
+requiring module followed by the service. \
 [Reference](http://openjdk.java.net/projects/jigsaw/spec/sotms/#services) \
 [Java's Dependency Injection](https://itnext.io/serviceloader-the-built-in-di-framework-youve-probably-never-heard-of-1fa68a911f9b)
 
