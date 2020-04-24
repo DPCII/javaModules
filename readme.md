@@ -26,8 +26,8 @@ possesses it.
 3. Modules that need a package from another module will always require in the entire
 module, not just the package.
 
-4. In multi-level modules, a module may need access to packages it does not directly import,
-but is instead required by one of the modules it requires. The module system is strict,
+4. In a multi-level architecture, a module may need access to packages it does not directly import,
+but is instead a requirement of one of the modules it requires. The module system is strict,
 and would not allow the module to pass through. This is where the ```require transitive```
 keyword comes into play. The middle module would require transitive the module it wants
 to pass through to the top level. Here's a helpful picture:
